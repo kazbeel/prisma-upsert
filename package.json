@@ -1,0 +1,27 @@
+{
+  "name": "prisma-upsert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "db:init": "prisma migrate dev",
+    "db:reset": "prisma migrate reset --force"
+  },
+  "keywords": [
+    "prisma",
+    "orm",
+    "issue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.11.19",
+    "prisma": "5.9.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.9.1"
+  }
+}
